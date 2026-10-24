@@ -73,7 +73,8 @@ describe('supportFeature', () => {
       '1.10': 6,
       '1.9.1': 5,
       1.9: 5,
-      1.8: 8
+      '1.8.8': 10,
+      1.8: 10
     }
     for (const [k, v] of Object.entries(assertions)) {
       const mcData = require('minecraft-data')(k)
